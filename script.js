@@ -2,7 +2,7 @@
 // of arguments and calculate their average.
 //
 // Bonus Test: Edit the 'average' function to use the 'variadricAverage'.
-
+//
 function average(numbers) {
     return variadricAverage.apply(null, numbers);
   };
